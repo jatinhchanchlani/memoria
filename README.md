@@ -1,8 +1,8 @@
 # Memoria
 
-## Enjoy the game at: https://jatinhchanchlani.github.io/memoria/
-
 ![screenshot](src/images/cards/game_sample.png)
+
+### Enjoy the game at: https://jatinhchanchlani.github.io/memoria/
 
 ---
 
