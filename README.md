@@ -1,3 +1,11 @@
+# Memoria
+
+## Enjoy the game at: https://jatinhchanchlani.github.io/memoria/
+
+![screenshot](src/images/cards/game_sample.png)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -19,7 +19,7 @@ class Game extends Component {
   componentDidUpdate() {
     const cards = [...this.state.cards];
     const selectedCards = cards.filter((c) => c.selected === true);
-    if (selectedCards.length >= 2) {
+    if (selectedCards.length === 2) {
       setTimeout(
         () => this.checkCardsInGame(selectedCards[0], selectedCards[1]),
         1000
