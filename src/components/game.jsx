@@ -63,6 +63,7 @@ class Game extends Component {
   };
 
   checkCardsInGame() {
+    console.log("test");
     const cards = [...this.state.cards];
     const selectedCards = cards.filter((c) => c.selected === true);
     if (selectedCards.length > 0) {
