@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/memoria/static/css/main.e36bce42.chunk.css",
-    "main.js": "/memoria/static/js/main.0290b0dc.chunk.js",
-    "main.js.map": "/memoria/static/js/main.0290b0dc.chunk.js.map",
+    "main.js": "/memoria/static/js/main.75e1a6f4.chunk.js",
+    "main.js.map": "/memoria/static/js/main.75e1a6f4.chunk.js.map",
     "runtime-main.js": "/memoria/static/js/runtime-main.86f92204.js",
     "runtime-main.js.map": "/memoria/static/js/runtime-main.86f92204.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/memoria/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.529cc655.chunk.js": "/memoria/static/js/2.529cc655.chunk.js",
-    "static/js/2.529cc655.chunk.js.map": "/memoria/static/js/2.529cc655.chunk.js.map",
+    "static/js/2.a2fc8e65.chunk.js": "/memoria/static/js/2.a2fc8e65.chunk.js",
+    "static/js/2.a2fc8e65.chunk.js.map": "/memoria/static/js/2.a2fc8e65.chunk.js.map",
     "index.html": "/memoria/index.html",
-    "precache-manifest.e636a03ed406c11d3a0cc212c07f83d2.js": "/memoria/precache-manifest.e636a03ed406c11d3a0cc212c07f83d2.js",
+    "precache-manifest.8533edad17a0ca3c645d22b8c41a167d.js": "/memoria/precache-manifest.8533edad17a0ca3c645d22b8c41a167d.js",
     "service-worker.js": "/memoria/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/memoria/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.e36bce42.chunk.css.map": "/memoria/static/css/main.e36bce42.chunk.css.map",
-    "static/js/2.529cc655.chunk.js.LICENSE.txt": "/memoria/static/js/2.529cc655.chunk.js.LICENSE.txt",
+    "static/js/2.a2fc8e65.chunk.js.LICENSE.txt": "/memoria/static/js/2.a2fc8e65.chunk.js.LICENSE.txt",
     "static/media/back.png": "/memoria/static/media/back.ea4cfc13.png",
     "static/media/clubs_10.png": "/memoria/static/media/clubs_10.264d8513.png",
     "static/media/clubs_2.png": "/memoria/static/media/clubs_2.bc0102a2.png",
@@ -39,6 +39,7 @@
     "static/media/diamonds_J.png": "/memoria/static/media/diamonds_J.e25dde16.png",
     "static/media/diamonds_K.png": "/memoria/static/media/diamonds_K.293b2aa1.png",
     "static/media/diamonds_Q.png": "/memoria/static/media/diamonds_Q.24e43763.png",
+    "static/media/game_sample.png": "/memoria/static/media/game_sample.0e2ccdc1.png",
     "static/media/hearts_10.png": "/memoria/static/media/hearts_10.9b3f646b.png",
     "static/media/hearts_3.png": "/memoria/static/media/hearts_3.9bacdfcd.png",
     "static/media/hearts_5.png": "/memoria/static/media/hearts_5.d9a3800f.png",
@@ -65,8 +66,8 @@
   "entrypoints": [
     "static/js/runtime-main.86f92204.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.529cc655.chunk.js",
+    "static/js/2.a2fc8e65.chunk.js",
     "static/css/main.e36bce42.chunk.css",
-    "static/js/main.0290b0dc.chunk.js"
+    "static/js/main.75e1a6f4.chunk.js"
   ]
 }

@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "242b0b3b858a81d21555ccdeadcdc59b",
+    "revision": "7e04f5d5ce3f6654c369e257443deaf0",
     "url": "/memoria/index.html"
   },
   {
-    "revision": "d35338ed36a85bdf0ec7",
+    "revision": "7b4ce77684254414f836",
     "url": "/memoria/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "7c598b8615dcb71fb335",
+    "revision": "63dad408794d677d97d6",
     "url": "/memoria/static/css/main.e36bce42.chunk.css"
   },
   {
-    "revision": "d35338ed36a85bdf0ec7",
-    "url": "/memoria/static/js/2.529cc655.chunk.js"
+    "revision": "7b4ce77684254414f836",
+    "url": "/memoria/static/js/2.a2fc8e65.chunk.js"
   },
   {
     "revision": "90565ba0b43e1b95d2876295dfd7014d",
-    "url": "/memoria/static/js/2.529cc655.chunk.js.LICENSE.txt"
+    "url": "/memoria/static/js/2.a2fc8e65.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7c598b8615dcb71fb335",
-    "url": "/memoria/static/js/main.0290b0dc.chunk.js"
+    "revision": "63dad408794d677d97d6",
+    "url": "/memoria/static/js/main.75e1a6f4.chunk.js"
   },
   {
     "revision": "cdbdbee85b9720e0a350",
@@ -126,6 +126,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "24e4376350aff4045cdb9b21867fd75a",
     "url": "/memoria/static/media/diamonds_Q.24e43763.png"
+  },
+  {
+    "revision": "0e2ccdc1cde65a6f71fa157d26825daa",
+    "url": "/memoria/static/media/game_sample.0e2ccdc1.png"
   },
   {
     "revision": "9b3f646b5f3e6ba4c0c1745000506df3",
