@@ -17,7 +17,14 @@ class Game extends Component {
   }
 
   componentDidUpdate() {
-    setTimeout(() => this.checkCardsInGame(), 1500);
+    const cards = [...this.state.cards];
+    const selectedCards = cards.filter((c) => c.selected === true);
+    if (selectedCards.length >= 2) {
+      setTimeout(
+        () => this.checkCardsInGame(selectedCards[0], selectedCards[1]),
+        1000
+      );
+    }
   }
 
   render() {
@@ -62,28 +69,20 @@ class Game extends Component {
     this.setState({ cards });
   };
 
-  checkCardsInGame() {
-    console.log("test");
+  checkCardsInGame(card1, card2) {
     const cards = [...this.state.cards];
-    const selectedCards = cards.filter((c) => c.selected === true);
-    if (selectedCards.length > 0) {
-      if (selectedCards.length >= 2) {
-        const card1 = selectedCards[0];
-        const card2 = selectedCards[1];
-        if (!this.areSame(card1, card2)) {
-          this.closeCard(card1);
-          this.closeCard(card2);
-        } else {
-          this.keepCardOpen(card1);
-          this.keepCardOpen(card2);
-        }
-        const index1 = cards.indexOf(card1);
-        const index2 = cards.indexOf(card2);
-        cards[index1] = card1;
-        cards[index2] = card2;
-        this.setState({ cards });
-      }
+    if (!this.areSame(card1, card2)) {
+      this.closeCard(card1);
+      this.closeCard(card2);
+    } else {
+      this.keepCardOpen(card1);
+      this.keepCardOpen(card2);
     }
+    const index1 = cards.indexOf(card1);
+    const index2 = cards.indexOf(card2);
+    cards[index1] = card1;
+    cards[index2] = card2;
+    this.setState({ cards });
   }
 
   areSame(card1, card2) {
