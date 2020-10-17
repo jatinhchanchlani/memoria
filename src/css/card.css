@@ -3,10 +3,6 @@
   border-radius: 10px;
   border: 1px solid #8e9992;
   cursor: pointer;
-  width: max-content;
-  max-width: 100px;
-  height: max-content;
-  max-height: 160px;
 }
 
 img:hover {

@@ -21,7 +21,7 @@ class Countdown extends Component {
 
   render() {
     return (
-      <div>
+      <div style={{ marginLeft: "4%" }}>
         <h4>
           <b>Time remaining </b>
           <span className="badge badge-primary">

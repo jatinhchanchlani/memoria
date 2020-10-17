@@ -4,16 +4,23 @@ import "../css/card.css";
 //  props
 //    value: value of the card e.g. 1, 2, 3, ..
 //    suite: clubs, diamonds, ..
+const IMAGE_WIDTH = "100";
+const IMAGE_HEIGHT = "160";
+
 class CardImage extends Component {
   render() {
     const imagePath = this.getImagePath();
     return (
-      <img
-        className="card-image image-fluid"
-        src={require("../images/cards/" + imagePath)}
-        alt={imagePath}
-        onClick={() => this.props.onClick(this.props.card)}
-      />
+      <div className="image-container">
+        <img
+          className="card-image image-fluid"
+          src={require("../images/cards/" + imagePath)}
+          alt={imagePath}
+          width={IMAGE_WIDTH}
+          height={IMAGE_HEIGHT}
+          onClick={() => this.props.onClick(this.props.card)}
+        />
+      </div>
     );
   }
 

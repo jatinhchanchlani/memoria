@@ -8,14 +8,22 @@ import ImageCard from "./card";
 class Cards extends Component {
   key = 1;
   render() {
-    const { cards } = this.props;
+    return (
+      <React.Fragment>
+        {this.renderCards(this.props.cards, 0, 10)}
+        {this.renderCards(this.props.cards, 10, 20)}
+      </React.Fragment>
+    );
+  }
+
+  renderCards(cards, start, end) {
     if (cards.length > 0) {
       return (
-        <div className="row">
-          {cards.map((card) => (
+        <div className="row" style={{ marginLeft: "4%" }}>
+          {_.range(start, end).map((num) => (
             <ImageCard
               key={this.key++}
-              card={card}
+              card={cards[num]}
               onClick={this.props.onClick}
             />
           ))}
