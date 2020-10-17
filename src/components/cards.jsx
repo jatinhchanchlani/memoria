@@ -19,7 +19,7 @@ class Cards extends Component {
   renderCards(cards, start, end) {
     if (cards.length > 0) {
       return (
-        <div className="row" style={{ marginLeft: "4%" }}>
+        <div className="row">
           {_.range(start, end).map((num) => (
             <ImageCard
               key={this.key++}
