@@ -31,18 +31,26 @@ class Game extends Component {
     return (
       <div className="container-fluid">
         <div className="row" style={{ height: 50 }}>
-          {this.state.showTimer ? (
-            <Countdown
-              seconds={TIMER_SECONDS}
-              onCountDownCompleted={this.handleCountDownComplete}
-            />
-          ) : null}
+          <div className="col col-1" />
+          <div className="col">
+            {this.state.showTimer ? (
+              <Countdown
+                seconds={TIMER_SECONDS}
+                onCountDownCompleted={this.handleCountDownComplete}
+              />
+            ) : null}
+          </div>
+          <div className="col col-1" />
         </div>
         <div className="row">
-          <Cards
-            cards={this.state.cards}
-            onClick={(card) => this.openCard(card)}
-          />
+          <div className="col col-1" />
+          <div className="col">
+            <Cards
+              cards={this.state.cards}
+              onClick={(card) => this.openCard(card)}
+            />
+          </div>
+          <div className="col col-1" />
         </div>
       </div>
     );
