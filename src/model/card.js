@@ -7,8 +7,8 @@ const NUMBER_MIN = 1;
 const NUMBER_MAX = 13;
 const SUITE_MIN = 1;
 const SUITE_MAX = 4;
-const NUMBER_OF_CARDS = 10;
-const NUMBER_OF_POSITIONS = 19;
+const NUMBER_OF_CARDS = 9;
+const NUMBER_OF_POSITIONS = 17;
 
 const suites = {
     1: "clubs",

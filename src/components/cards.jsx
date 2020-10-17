@@ -10,8 +10,8 @@ class Cards extends Component {
   render() {
     return (
       <React.Fragment>
-        {this.renderCards(this.props.cards, 0, 10)}
-        {this.renderCards(this.props.cards, 10, 20)}
+        {this.renderCards(this.props.cards, 0, 9)}
+        {this.renderCards(this.props.cards, 9, 18)}
       </React.Fragment>
     );
   }
